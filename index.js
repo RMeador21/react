@@ -1,6 +1,11 @@
 ReactDOM.render(<p>Hi, my name is Eric!</p>, document.getElementById("root"))
 const hello = (
-    <h1>Hello Everyone, my name is Eric</h1>
+    
+    <ul>
+        <li>cook</li>
+        <li>clean</li>
+        <li>laundry</li>
+    </ul>
 )
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
